@@ -1,6 +1,22 @@
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+input[type=text] {
+    width: 40%;
+    height: 2em;
+    box-shadow: 0.5px 1px 0.5px #d8d8d8;
+    font-size: 22px;
+    padding: 0px 10px;
+    border: 1px solid #d8d8d8;
+    margin: 25px 0px;
 }
 
+input[type=submit] {
+    font: normal normal 700 13px arial;
+    color: #777;
+    background-color: #F4F4F4;
+    padding: 14px 17px;
+    border: none;
+    margin: 5px;
+}
+
+li {
+    display: inline;
+}
