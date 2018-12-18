@@ -1,7 +1,7 @@
 input[type=text] {
     width: 40%;
     height: 2em;
-    box-shadow: 0.5px 1px 0.5px #d8d8d8;
+    box-shadow: 1px 3px 2px #d8d8d8;
     font-size: 22px;
     padding: 0px 10px;
     border: 1px solid #d8d8d8;
@@ -19,17 +19,25 @@ input[type=submit] {
 li {
     display: inline-block;
     font: normal normal 400 13px arial;
-    color: #000;
-    top: 50%;
-    margin: 0px 5px;
+    color: #333;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    margin: 0px 9px;
 }
 ul {
     margin: 15px 10px 0px 10px;
-    transform: translateY(50%)
 }
 a {
     font: normal normal 400 13px arial;
+    line-height: 30px;
+    height: 30px;
     text-decoration: none;
-    color: #000;
-
+    color: #333;
+}
+.floatleft {
+    float: left;
+}
+.floatright {
+    float: right;
 }
