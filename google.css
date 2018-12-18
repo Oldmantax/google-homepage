@@ -41,3 +41,7 @@ a {
 .floatright {
     float: right;
 }
+
+#searcharea {
+    padding-top: 270px;
+}
