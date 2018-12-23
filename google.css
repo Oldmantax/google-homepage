@@ -22,10 +22,12 @@ li {
     color: #333;
     height: 30px;
     line-height: 30px;
+    text-decoration: none;
     vertical-align: middle;
     margin: 0px 9px;
+    position: relative;
 }
-ul {
+.header {
     margin: 15px 10px 0px 10px;
 }
 a {
@@ -34,6 +36,16 @@ a {
     height: 30px;
     text-decoration: none;
     color: #333;
+}
+footer {
+    background-color: #f4f4f4;
+    vertical-align: bottom;
+    border: 1px 0px solid #555;
+}
+
+#firstfooter {
+    width: 100%;
+    font: normal normal 400 15px arial;
 }
 .floatleft {
     float: left;
@@ -44,4 +56,9 @@ a {
 
 #searcharea {
     padding-top: 270px;
+}
+.lightertext {
+    color: #777;
+    line-height: 40px;
+    vertical-align: middle;
 }
